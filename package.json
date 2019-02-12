@@ -1,0 +1,36 @@
+{
+  "name": "press-any-key",
+  "version": "0.1.0",
+  "description": "Press any key to continue...",
+  "main": "index.js",
+  "author": "Vladimir Kalmykov <vladimirmorulus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "single-line-log": "^1.1.2"
+  },
+  "bin": {
+    "press-any-key": "main.js"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morulus/press-any-key.git"
+  },
+  "keywords": [
+    "cli",
+    "util",
+    "confirm",
+    "dialog"
+  ],
+  "bugs": {
+    "url": "https://github.com/morulus/press-any-key/issues"
+  },
+  "homepage": "https://github.com/morulus/press-any-key#readme",
+  "bin": "bin/cli.js"
+}
