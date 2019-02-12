@@ -4,7 +4,7 @@ press-any-key
 An utility to launch the simplest confirmation dialog.
 
 ```
-npx press-any-key
+npx -q press-any-key
 Press any key to continue...
 ```
 
@@ -21,7 +21,7 @@ npm install press-any-key --save-dev
 But you can also use [npx](https://www.npmjs.com/package/npx) to invoke the command without install.
 
 ```
-npx press-any-key
+npx -q press-any-key
 ```
 
 ## Arguments
@@ -46,7 +46,7 @@ press-any-key "Press any key to run the application"
 You can use standard bash logical operators `&&` and `||` to perform branching.
 
 ```shell
-npx press-any-key && echo "A good choice!" || echo "Bye bye :("
+npx -q press-any-key && echo "A good choice!" || echo "Bye bye :("
 ```
 
 Or you can rely on the fact that CTRL + C, by default, exits the process.
@@ -55,7 +55,7 @@ For example, you have a script that performs irreversible actions, and to avoid 
 
 ```bash
 echo 'You are about to delete all files in current directory'
-npx press-any-key
+npx -q press-any-key
 rm -rf *
 ```
 
