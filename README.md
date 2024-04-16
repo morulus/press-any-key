@@ -84,7 +84,7 @@ pressAnyKey()
 pressAnyKey(message, options)
 ```
 
-The message is a string that will be displayed in standard output, before it starts to listen for key pressing. Pass `null` if you'd like to use default message.
+The message is a string that will be displayed in the standard output before it starts to listen for key presses. Pass null if you'd like to use the default message.
 
 **Options:**
 
@@ -92,7 +92,7 @@ The message is a string that will be displayed in standard output, before it sta
   - **`preverseLog`** Preserve the message in the log
   - **`hideMessage`** Do not show the message
 
-By the default when user presses CTRL+C the function will exit the process. But you able to change the standart behavior of CTRL+C by passing option `ctrlC` with the value `"reject"`. In this case, pressing CTRL+C wont exit the process, but do reject the promise.
+By default, when the user presses CTRL+C, the function will exit the process. However, you can change the standard behavior of CTRL+C by passing the option ctrlC with the value "reject". In this case, pressing CTRL+C will not exit the process but will instead reject the promise.
 
 ```js
 const pressAnyKey = require('press-any-key');
