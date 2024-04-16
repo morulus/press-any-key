@@ -8,14 +8,17 @@
   "dependencies": {
     "single-line-log": "^1.1.2"
   },
-  "bin": {
-    "press-any-key": "main.js"
-  },
+  "bin": "bin/cli.js",
   "files": [
     "index.js",
     "index.d.ts"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-sinon": "^1.1.0",
+    "sinon": "^17.0.1",
+    "strip-ansi": "^6.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,6 +35,5 @@
   "bugs": {
     "url": "https://github.com/morulus/press-any-key/issues"
   },
-  "homepage": "https://github.com/morulus/press-any-key#readme",
-  "bin": "bin/cli.js"
+  "homepage": "https://github.com/morulus/press-any-key#readme"
 }

@@ -7,8 +7,9 @@ module.exports = function pressAnyKey(mssg, options = {}) {
     ? 1
     : options.ctrlC;
   const preverseLog = options.preverseLog || false;
+  const hideMessage = options.hideMessage || false;
 
-  if (mssg) {
+  if (mssg && !hideMessage) {
     sll(mssg);
   }
 

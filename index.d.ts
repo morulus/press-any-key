@@ -8,7 +8,11 @@ declare module "press-any-key" {
         /**
          * Preserve the message in the log
          */
-        preverseLog?: boolean
+        preverseLog?: boolean,
+        /**
+         * Hide the message
+         */
+        hideMessage?: boolean,
     }
     /**
 
