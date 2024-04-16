@@ -1,4 +1,4 @@
-const sll = require("single-line-log").stdout;
+const sll = require("log-update");
 const DEFAULT_MESSAGE = "Press any key to continue..."
 
 module.exports = function pressAnyKey(mssg, options = {}) {
@@ -20,8 +20,9 @@ module.exports = function pressAnyKey(mssg, options = {}) {
       process.stdin.pause();
 
       if (mssg && !preverseLog) {
-        sll("");
+        sll.clear();
       } else {
+        sll.done();
         process.stdout.write("\n")
       }
 
