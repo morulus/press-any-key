@@ -1,6 +1,6 @@
 {
   "name": "press-any-key",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Press any key to continue...",
   "main": "index.js",
   "author": "Vladimir Kalmykov <vladimirmorulus@gmail.com>",
@@ -20,7 +20,7 @@
     "strip-ansi": "^6.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

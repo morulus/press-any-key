@@ -1,7 +1,7 @@
 press-any-key
 ==
 
-An utility to launch the simplest confirmation dialog.
+A utility to launch the simplest confirmation dialog.
 
 ```
 npx -q press-any-key
@@ -40,6 +40,7 @@ press-any-key "Press any key to run the application"
 
 `--ctrlc <code>` Exit code on pressing CTRL-C.
 `--preserve-log` Do not clean the message, after resolve
+`--hide-message` Do not show the massage
 
 ## How to route
 
@@ -106,12 +107,6 @@ pressAnyKey("Press any key to resolve, or CTRL+C to reject", {
     console.log('You pressed CTRL+C')
   })
 ```
-
-Releases
---
-
-- 0.1.1 - Initial release
-- 0.2.0 - Add types support
 
 Author
 --
