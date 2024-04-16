@@ -106,6 +106,12 @@ pressAnyKey("Press any key to resolve, or CTRL+C to reject", {
   })
 ```
 
+Releases
+--
+
+- 0.1.1 - Initial release
+- 0.2.0 - Add types support
+
 Author
 --
 

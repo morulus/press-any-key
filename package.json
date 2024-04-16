@@ -1,6 +1,6 @@
 {
   "name": "press-any-key",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Press any key to continue...",
   "main": "index.js",
   "author": "Vladimir Kalmykov <vladimirmorulus@gmail.com>",
@@ -11,9 +11,10 @@
   "bin": {
     "press-any-key": "main.js"
   },
-  "directories": {
-    "example": "examples"
-  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
