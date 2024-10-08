@@ -1,6 +1,6 @@
 {
   "name": "press-any-key",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Press any key to continue...",
   "main": "index.js",
   "author": "Vladimir Kalmykov <vladimirmorulus@gmail.com>",

@@ -89,7 +89,7 @@ The message is a string that will be displayed in the standard output before it 
 **Options:**
 
   - **`ctrlC`** The exit code, or `"reject"` (do reject the promise), or false to perceive as pressing any key.
-  - **`preverseLog`** Preserve the message in the log
+  - **`preserveLog`** Preserve the message in the log
   - **`hideMessage`** Do not show the message
 
 By default, when the user presses CTRL+C, the function will exit the process. However, you can change the standard behavior of CTRL+C by passing the option ctrlC with the value "reject". In this case, pressing CTRL+C will not exit the process but will instead reject the promise.

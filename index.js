@@ -6,7 +6,7 @@ module.exports = function pressAnyKey(mssg, options = {}) {
   const ctrlC = typeof options.ctrlC === "undefined"
     ? 1
     : options.ctrlC;
-  const preverseLog = options.preverseLog || false;
+  const preserveLog = options.preserveLog || false;
   const hideMessage = options.hideMessage || false;
 
   if (mssg && !hideMessage) {
@@ -19,7 +19,7 @@ module.exports = function pressAnyKey(mssg, options = {}) {
       process.stdin.setRawMode(false);
       process.stdin.pause();
 
-      if (mssg && !preverseLog) {
+      if (mssg && !preserveLog) {
         sll.clear();
       } else {
         sll.done();
